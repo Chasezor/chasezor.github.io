@@ -1,0 +1,191 @@
+*{
+    padding:0;
+    margin:0;
+    white-space: initial;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#alink{
+    color: white;
+    margin: auto;
+    padding: auto
+   
+}
+
+#site-Link{
+    color: rgb(83, 184, 83);
+    filter: drop-shadow(0 0 0.05rem green);
+    display:inline-block;
+    width:100%;
+    height:100%;
+    white-space: initial;
+    
+
+}
+a:hover{
+    cursor: pointer;
+}
+body{
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+
+
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+    url('texture02.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:contain; /* Resize the background image to cover the entire container */
+
+
+
+
+}
+
+#nav{
+height: 7vh;
+ display: flex;
+ justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+ background: linear-gradient(36deg, rgba(149,0,0,1) 0%, rgba(249,55,55,1) 80%, rgba(149,0,0,1) 100%);
+ color: white;
+ 
+}
+
+#hero{
+    height: 20%;
+     text-align: center;
+     justify-content: center;
+
+     /*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(56,56,56,1) 49%, rgba(0,0,0,1) 100%); */
+     color:white;
+
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgb(0, 0, 0)),
+     url('data2.jpg');
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+
+
+
+#about{
+    height: 30%;
+    text-align: left;
+    justify-content: center;
+    background-color: white;
+    
+ 
+
+}
+
+#skills{
+    height: 30%;
+    text-align: left;
+    justify-content: center;
+
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);*/
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
+    background: linear-gradient(36deg, rgba(149,0,0,1) 0%, rgba(249,55,55,1) 80%, rgba(149,0,0,1) 100%);
+    color: white;
+}
+
+#projects{
+    height: 30%;
+    text-align: left;
+    justify-content: center;
+    background-color: white;
+}
+
+#contact
+{
+    height: 30%;
+    text-align: left;
+    justify-content: center;
+
+    /*-webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);*/
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+
+    bottom: 0px;
+
+    background: linear-gradient(36deg, rgba(149,0,0,1) 0%, rgba(249,55,55,1) 80%, rgba(149,0,0,1) 100%);
+    color: white;
+    
+}
+
+#main-img{
+    width: 20vh;
+    clip-path: circle(30%);
+    margin: auto;
+    padding: auto;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:contain; /* Resize the background image to cover the entire container */
+}
+    
+#code-img-container{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#code-img{
+    height: 12vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+    
+#link-img{
+    height: 12vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+h2{
+    
+    padding: 2rem;
+    white-space: initial;
+}
+
+h1{
+    
+    font-size: 3rem;
+    padding: auto;
+    white-space: initial;
+}
+h4{
+    
+    padding: 2rem;
+    white-space: initial;
+}
+p{
+    
+    padding: 2rem;
+    white-space: initial;
+}
+
+
+#scale-container{
+    
+    max-width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 0 0.75rem white);
+    background-color: white;
+
+}
